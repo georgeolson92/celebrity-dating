@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find your celebrity match!</h1>
+      <form id="celeb-dating">
+        <div class="form-group name-form-group">
+          <label for="name">Your name:</label>
+          <input id="name" type="text" class="form-control">
+        </div>
+        <div class="form-group age-form-group">
+          <label for="age">Your age:</label>
+          <input id="age" type="text" class="form-control">
+        </div>
+        <div class="form-group animal-form-group">
+          <label for="animal">What is your favorite animal?</label>
+          <input id="animal" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="movietv">Which is your favorite movie or TV show?</label>
+          <select id="movietv" class="form-control">
+            <option>House of Cards</option>
+            <option>Titanic</option>
+            <option>The Office</option>
+            <option>Portlandia</option>
+            <option>Star Wars</option>
+            <option>American Horror Story</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="music">Which is your favorite type of music?</label>
+          <select id="music" class="form-control">
+            <option>Classical</option>
+            <option>Pop</option>
+            <option>Rock</option>
+            <option>Indie</option>
+            <option>House</option>
+            <option>Orchestral</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <div id="result">
+        <h2>Your result:</h2>
+        <p>Your match is <span class="match"></span>!</p>
+        <img class="match-img" src="" alt="your match"/>
+      </div>
+    </div>
+
+  </body>
+</html>
